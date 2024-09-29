@@ -185,7 +185,7 @@ void Queue::clear()
     }
 }
 
-void Queue::printStack()
+void Queue::printQueue()
 {
     Node *temp = top;
     while (temp != nullptr)
@@ -193,4 +193,5 @@ void Queue::printStack()
         cout << temp->getData() << " ";
         temp = temp->getNext();
     }
+    cout << "\n";
 }

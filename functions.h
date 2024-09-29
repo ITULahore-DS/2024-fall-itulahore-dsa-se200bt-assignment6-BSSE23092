@@ -67,7 +67,7 @@ class Queue{
 
     void clear();
 
-    void printStack();
+    void printQueue();
 
 };
 
